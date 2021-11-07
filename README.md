@@ -2,7 +2,10 @@
 
 ## Usage
 ```bash
-git clone https://github.com/pranavkarande/wtflinux_round2_teamvikings && cd wtflinux_round2_teamvikings && sudo chmod +x script.sh && sudo ./script.sh
+git clone https://github.com/pranavkarande/wtflinux_round2_teamvikings
+cd wtflinux_round2_teamvikings
+sudo chmod +x script.sh
+sudo ./script.sh
 ```
 
 ## Team Members
