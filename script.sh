@@ -19,6 +19,6 @@ elif [[ $BATTERY_PERCENTAGE < 50 ]]; then
     echo "Battery is moderately charged setting governor to conservative"
     echo "conservative" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 else
-    echo "Battery is well charged setting governor to ondemand"
+    echo "Battery is sufficiently charged setting governor to ondemand"
     echo "ondemand" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 fi
